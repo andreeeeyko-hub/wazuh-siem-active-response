@@ -77,3 +77,5 @@ Events were captured and filtered using rule.id: 100001.
 
 Created a custom SUDO Alerts table displaying agent.name and raw command details (full_log).
 
+![Wazuh Dashboard](docs/screenshots/dashboard)
+
