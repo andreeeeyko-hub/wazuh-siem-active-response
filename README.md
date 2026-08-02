@@ -1,4 +1,5 @@
 # wazuh-siem-active-response
+![Wazuh Dashboard](waz.png)
 
 # Wazuh SIEM Lab: Custom Detection Rules & Active Response Playground
 
