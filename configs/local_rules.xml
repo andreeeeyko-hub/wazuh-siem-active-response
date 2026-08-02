@@ -1,1 +1,14 @@
+<!-- Custom Wazuh Detection Rules -->
+<group name="local,syslog,sudo,">
 
+  <!-- Custom Alert for tracking SUDO execution (Privilege Escalation) -->
+  <rule id="100001" level="7">
+    <if_sid>5402</if_sid>
+    <description>Custom Alert: User executed a command with SUDO privileges</description>
+    <mitre>
+      <id>T1078</id>
+    </mitre>
+    <group>privilege_escalation,</group>
+  </rule>
+
+</group>
